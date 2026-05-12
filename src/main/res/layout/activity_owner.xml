@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TITLE -->
+        <TextView
+            android:text="Owner Dashboard"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- MACHINE NAME -->
+        <EditText
+            android:id="@+id/machineName"
+            android:hint="Machine Name"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- PRICE -->
+        <EditText
+            android:id="@+id/price"
+            android:hint="Price per hour"
+            android:inputType="number"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- LOCATION -->
+        <EditText
+            android:id="@+id/location"
+            android:hint="Location (City/Area)"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- PHONE -->
+        <EditText
+            android:id="@+id/phone"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- ADD MACHINE -->
+        <Button
+            android:id="@+id/addBtn"
+            android:text="ADD MACHINE"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+
+        <!-- ACTION BUTTONS -->
+        <Button
+            android:id="@+id/viewMachinesBtn"
+            android:text="VIEW YOUR MACHINES"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/viewBookingsBtn"
+            android:text="PENDING BOOKINGS"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/viewUsersBtn"
+            android:text="REGISTERED USERS"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/viewEarningsBtn"
+            android:text="VIEW EARNINGS"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/viewHistoryBtn"
+            android:text="BOOKING HISTORY"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- OUTPUT CONTAINER -->
+        <LinearLayout
+            android:id="@+id/outputContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
